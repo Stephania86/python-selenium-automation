@@ -94,3 +94,11 @@ app_binaries/
 
 # Screenshots
 *.png
+
+# Virtual enviroment
+.env/
+.vscode
+
+# Driver
+chromedriver
+geckodriver
