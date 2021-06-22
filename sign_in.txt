@@ -1,0 +1,15 @@
+amazon logo $x("//i[@class='a-icon a-icon-logo']")
+
+continue  $x("//input[@id='continue']")
+
+need help link $x("//span[@class='a-expander-prompt']")
+
+forget your password $x("//a[@id='auth-fpp-link-bottom']")
+
+others issues $x("//a[@id='ap-other-signin-issues-link']")
+
+create amazon account bottom $x("//a[@id='createAccountSubmit']")
+
+condition use link $x("//a[contains(@href,'ap_desktop_footer_cou?ie=UTF8&nodeId=508088' )]")
+
+private notice link $x("//a[contains(@href,'ap_desktop_footer_privacy_notice' )]")
