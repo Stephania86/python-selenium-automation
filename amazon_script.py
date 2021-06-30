@@ -9,7 +9,8 @@ driver = webdriver.Chrome(executable_path="C:\\Users\\HP\Downloads\\automation\\
 driver.maximize_window()
 
 driver.implicitly_wait(5)
-driver.get('https://www.amazon.com/')
+'''
+
 
 search_field = driver.find_element(By.ID, 'twotabsearchtextbox').send_keys('Table')
 
