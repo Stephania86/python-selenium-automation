@@ -6,4 +6,9 @@ Feature: Test Amazon search
     Given Open  Amazon  page
     When Input Table in search field
     And click on Amazon search icon
-    Then verify search worked
+    Then verify search worked for Table
+
+
+     Scenario: Amazon footer has correct amount of links
+      Given Open  Amazon  page
+       Then verify 40 footer links are displayed

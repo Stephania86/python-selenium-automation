@@ -7,4 +7,8 @@ Feature: Open Amazon Best seller Page then verify there are 3 links
       Given Open Amazon Best Sellers page
       Then Verify that are 5 links
 
+       Scenario: Bestsellers links can be opened
+         Given Open Amazon Best Sellers page
+         Then User can click through top links and verify correct page opens
+
 
